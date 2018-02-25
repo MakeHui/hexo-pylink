@@ -6,10 +6,12 @@ var hexo = hexo || {};
 
 function join_pingyin(data) {
     var str = '';
+    var delimiter = '-';
     for (var i = 0; i < data.length; i++) {
         data[i][0] = data[i][0].replace(/(^\s*)|(\s*$)/g, '');
+        data[i][0] = data[i][0].replace(/ /g, delimiter);
         if (data[i][0] != '') {
-            str += data[i][0] + '-';
+            str += data[i][0] + delimiter;
         }
     }
     
