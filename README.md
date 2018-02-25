@@ -2,7 +2,7 @@
 
 Convert chinese title to pinyin link for hexo.
 
-## Used
+## Use
 
 Add plugin to Hexo:
 
