@@ -1,0 +1,28 @@
+{
+  "name": "hexo-pylink",
+  "version": "0.0.1",
+  "description": "Convert chinese title to pinyin link for hexo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeHui/hexo-pylink.git"
+  },
+  "keywords": [
+    "hexo",
+    "link",
+    "permalink",
+    "pylink"
+  ],
+  "author": "MakeHui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakeHui/hexo-pylink/issues"
+  },
+  "homepage": "https://github.com/MakeHui/hexo-pylink",
+  "dependencies": {
+    "node-pinyin": "^0.2.3"
+  }
+}
